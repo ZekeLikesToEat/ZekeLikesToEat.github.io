@@ -7,7 +7,7 @@ window.requestAnimationFrame(function loop(t) {
     window.requestAnimationFrame(loop);
 });
 const canvas = document.getElementById('canvasTest');
-canvas.style.width = window.innerWidth;
+canvas.width = window.innerWidth;
 const ctx = canvas.getContext('2d');
 
 const width = window.innerWidth;
