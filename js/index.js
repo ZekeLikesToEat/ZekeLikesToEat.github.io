@@ -9,5 +9,5 @@ window.requestAnimationFrame(function loop(t) {
 const canvas = document.getElementById('canvasTest');
 const ctx = canvas.getContext('2d');
 
-ctx.fillStyle = 'green';
+ctx.fillStyle = 'blue';
 ctx.fillRect(10, 10, 150, 100);
