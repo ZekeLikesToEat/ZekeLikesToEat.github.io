@@ -1,4 +1,4 @@
-alert('it works!');
+alert(JSON.stringify(devlog,undefined,4));
 console.log(devlog);
 document.body.style.backgroundColor="green";
 window.requestAnimationFrame(function loop(t) {
