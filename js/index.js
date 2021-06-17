@@ -7,7 +7,11 @@ window.requestAnimationFrame(function loop(t) {
     window.requestAnimationFrame(loop);
 });
 const canvas = document.getElementById('canvasTest');
+canvas.style.width = window.innerWidth;
 const ctx = canvas.getContext('2d');
 
+const width = window.innerWidth;
+
 ctx.fillStyle = 'blue';
-ctx.fillRect(10, 10, 150, 100); //pixels, border, border, width, height
+ctx.fillRect(0, 0, width, 100); //pixels, border, border, width, height
+//eventually create smart; have it find screen size and display full screen
