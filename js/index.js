@@ -6,3 +6,8 @@ window.requestAnimationFrame(function loop(t) {
     document.getElementById("countup-browser-refresh").innerText=Math.floor(t/1000);
     window.requestAnimationFrame(loop);
 });
+const canvas = document.getElementById('canvasTest');
+const ctx = canvas.getContext('2d');
+
+ctx.fillStyle = 'green';
+ctx.fillRect(10, 10, 150, 100);
