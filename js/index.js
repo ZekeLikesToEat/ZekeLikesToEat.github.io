@@ -10,4 +10,4 @@ const canvas = document.getElementById('canvasTest');
 const ctx = canvas.getContext('2d');
 
 ctx.fillStyle = 'blue';
-ctx.fillRect(10, 10, 150, 100);
+ctx.fillRect(10, 10, 150, 100); //pixels, border, border, width, height
