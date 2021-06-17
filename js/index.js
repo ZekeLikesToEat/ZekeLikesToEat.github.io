@@ -1,5 +1,5 @@
 alert('it works!');
-console.log("it works!!");
+console.log(devlog);
 document.body.style.backgroundColor="green";
 window.requestAnimationFrame(function loop(t) {
     //console.log(t);
