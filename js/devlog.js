@@ -1,4 +1,10 @@
 window.devlog = [{
+	date: new Date("2021-07-11"),
+	text: "Moved bouncing ball to object_BouncingBall.js \n Cleaned up scripts",
+},{
+	date: new Date("2021-07-10"),
+	text: "Created bouncing ball \n Created timers",
+},{
 	date: new Date("2021-06-17"),
 	text: "Created developer log \n created canvas",
 }, {
