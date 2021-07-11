@@ -4,7 +4,6 @@ console.log(devlog);
 
 const canvas = document.getElementById('canvasTest');
 const ctx = canvas.getContext('2d');
-//const ball = object_BouncingBall;
 
 window.addEventListener('resize', positionCanvas);
 window.addEventListener('load', positionCanvas);
@@ -33,58 +32,10 @@ setInterval(() => {
 	console.log('this is the minute interval thing')
 }, 60 * 1000)
 
-/* 2021.07.11 Moved bouncing ball info to object_BouncingBall.js
-const bouncingSquare = {
-	size: 50,
-	position: {
-		x: 100,
-		y: 100,
-	},
-	velocity: { // pixels per second
-		x: 300,
-		y: -200,
-	},
-};
-
-
-function updateAndDrawBouncingBall(dt) {
-	const s = bouncingSquare;
-
-	// gravity
-	s.velocity.y += 300 * dt
-
-	// update position from velocity
-	s.position.x += s.velocity.x * dt;
-	s.position.y += s.velocity.y * dt;
-
-	// bounce
-	if ((s.position.x + s.size) > canvas.width) {
-		s.velocity.x *= -1
-	}
-
-	if ((s.position.y + s.size) > canvas.height) {
-		s.velocity.y *= -1
-	}
-
-	if (s.position.x < 0) {
-		s.velocity.x *= -1
-	}
-
-	if (s.position.y < 0) {
-		s.velocity.y *= -1
-	}
-
-	// draw
-	ctx.fillStyle = 'blue';
-	ctx.fillRect(s.position.x, s.position.y, s.size, s.size);
-}*/
-
 // todo: break up update vs draw
 function update(dt) {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-	//updateAndDrawBouncingBall(dt); 2021.07.11 moved Bouncing Ball
-	//ball.updateAndDrawBouncingBall(dt);
 	updateAndDrawBouncingBall(dt);
 
 	drawFrameRateIndicator(dt);
