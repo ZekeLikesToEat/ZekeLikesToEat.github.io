@@ -4,7 +4,7 @@ console.log(devlog);
 
 const canvas = document.getElementById('canvasTest');
 const ctx = canvas.getContext('2d');
-const ball = object_BouncingBall;
+//const ball = object_BouncingBall;
 
 window.addEventListener('resize', positionCanvas);
 window.addEventListener('load', positionCanvas);
@@ -84,7 +84,8 @@ function update(dt) {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 	//updateAndDrawBouncingBall(dt); 2021.07.11 moved Bouncing Ball
-	ball.updateAndDrawBouncingBall(dt);
+	//ball.updateAndDrawBouncingBall(dt);
+	updateAndDrawBouncingBall(dt);
 
 	drawFrameRateIndicator(dt);
 
