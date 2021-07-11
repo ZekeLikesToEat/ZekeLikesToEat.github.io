@@ -32,7 +32,7 @@ setInterval(() => {
 	console.log('this is the minute interval thing')
 }, 60 * 1000)
 
-
+/* 2021.07.11 Moved bouncing ball info to object_BouncingBall.js
 const bouncingSquare = {
 	size: 50,
 	position: {
@@ -76,13 +76,14 @@ function updateAndDrawBouncingBall(dt) {
 	// draw
 	ctx.fillStyle = 'blue';
 	ctx.fillRect(s.position.x, s.position.y, s.size, s.size);
-}
+}*/
 
 // todo: break up update vs draw
 function update(dt) {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-	updateAndDrawBouncingBall(dt);
+	//updateAndDrawBouncingBall(dt); 2021.07.11 moved Bouncing Ball
+	object_BouncingBall.updateAndDrawBouncingBall(dt);
 
 	drawFrameRateIndicator(dt);
 
