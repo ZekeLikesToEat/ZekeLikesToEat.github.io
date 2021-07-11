@@ -10,7 +10,7 @@ const bouncingSquare = {
 	},
 };
 
-function updateAndDrawBouncingBall(dt) {
+function updateAndDrawBouncingBall(var dt) {
 	const s = bouncingSquare;
 
 	// gravity
