@@ -4,7 +4,7 @@ const objectPositionsList =[];
 function declareObjectPositions() {
   var arrayLength = objectPositionsList.length;
   for (var i = 0; i < arrayLength; i++) {
-    console.log(myStringArray[i]);
+    console.log(objectPositionsList[i]);
     var rect = i.getBoundingClientRect();
 console.log(rect.top, rect.right, rect.bottom, rect.left);
     console.log("attempting to show coordinates");
