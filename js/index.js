@@ -29,7 +29,7 @@ window.requestAnimationFrame(function loop(t) {
 
 setInterval(() => {
 	/* do stuff */
-	console.log('this is the minute interval thing')
+	//console.log('this is the minute interval thing')
 	declareObjectPositions();
 }, 60 * 1000/12)//changed to every 5 seconds
 
