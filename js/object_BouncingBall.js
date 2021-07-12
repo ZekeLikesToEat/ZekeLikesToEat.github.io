@@ -1,7 +1,7 @@
 
 const bouncingSquare = {
-	var name = "blueball";
-	addObjectTo_objectPositionsList(name);
+	let objectName = "blueball";
+	addObjectTo_objectPositionsList(objectName);
 	size: 50,
 	position: {
 		x: 100,
