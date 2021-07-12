@@ -1,6 +1,7 @@
 
 const bouncingSquare = {
-	addObjectTo_objectPositionsList();
+	var name = "blueball";
+	addObjectTo_objectPositionsList(name);
 	size: 50,
 	position: {
 		x: 100,
@@ -12,8 +13,8 @@ const bouncingSquare = {
 	},
 };
 
-function addObjectTo_objectPositionsList(){
-	objectPositionsList.push(bouncingSquare);
+function addObjectTo_objectPositionsList(string i){
+	objectPositionsList.push(i);
 };
 
 
