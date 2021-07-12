@@ -10,6 +10,10 @@ const bouncingSquare = {
 	},
 };
 
+function addObjectTo_objectPositionsList{
+	objectPositionsList.push(bouncingSquare);
+}
+
 var dt = 0;
 
 function updateAndDrawBouncingBall(dt) {
