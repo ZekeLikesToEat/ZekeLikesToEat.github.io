@@ -1,4 +1,7 @@
 window.devlog = [{
+	date: new Date("2021-07-12"),
+	text: "Building basic backbone for physics engine a.k.a collision detection",
+},{
 	date: new Date("2021-07-11"),
 	text: "Moved bouncing ball to object_BouncingBall.js \n Cleaned up scripts",
 },{
