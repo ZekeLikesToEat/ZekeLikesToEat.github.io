@@ -10,7 +10,7 @@ const bouncingSquare2 = {
 	objectName: "redball",
 	size: 50,
 	position: {
-		x: 100,
+		x: 200,
 		y: 100,
 	},
 	velocity: { // pixels per second
