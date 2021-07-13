@@ -19,4 +19,5 @@ function declareObjectPositions() {
       console.log(i.position(y));
     */
   }
+  objectPositionsList =[];
 }
