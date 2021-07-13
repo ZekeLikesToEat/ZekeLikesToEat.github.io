@@ -32,6 +32,9 @@ setInterval(() => {
 	//console.log('this is the minute interval thing')
 	addObjectTo_objectPositionsList();
 	declareObjectPositions();
+	
+	addObjectTo_objectPositionsList2();//delete after testing
+	declareObjectPositions2();//delete after testing
 }, 60 * 1000/12)//changed to every 5 seconds
 
 // todo: break up update vs draw
@@ -39,8 +42,10 @@ function update(dt) {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 	updateAndDrawBouncingBall(dt);
+	updateAndDrawBouncingBall2(dt);//delete after testing
 
 	drawFrameRateIndicator(dt);
+	drawFrameRateIndicator2(dt);//delete after testing
 
 	document
 		.getElementById("countup-browser-refresh")
