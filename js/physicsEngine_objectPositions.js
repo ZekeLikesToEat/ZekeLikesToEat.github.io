@@ -4,12 +4,17 @@ const objectPositionsList =[];
 function declareObjectPositions() {
   var arrayLength = objectPositionsList.length;
   for (var i = 0; i < arrayLength; i++) {
-    console.log("attempting to show coordinates");
     
-    //console.log(objectPositionsList[i]);
-    //console.log(objectPositionsList[i].position);
+    console.log(objectPositionsList[i].name + ", " +objectPositionsList[i].position.x + ", " + objectPositionsList[i].position.y);
+    
+    
+    /*SUCCESS
+    console.log("attempting to show coordinates");
+    console.log(objectPositionsList[i]);
+    console.log(objectPositionsList[i].position);
     console.log(objectPositionsList[i].position.x);
     console.log(objectPositionsList[i].position.y);
+    */
     
     /*FAILURES:
       //var rect = i.getBoundingClientRect();
