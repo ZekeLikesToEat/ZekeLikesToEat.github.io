@@ -7,8 +7,8 @@ function declareObjectPositions() {
     console.log("attempting to show coordinates");
     
     //console.log(objectPositionsList[i]);
-    console.log(objectPositionsList[i].position);
-    console.log(objectPositionsList[i].position.y);
+    //console.log(objectPositionsList[i].position);
+    console.log(objectPositionsList[i].position.x);
     console.log(objectPositionsList[i].position.y);
     
     /*FAILURES:
