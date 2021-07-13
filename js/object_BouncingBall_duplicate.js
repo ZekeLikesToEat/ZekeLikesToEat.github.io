@@ -21,7 +21,7 @@ const bouncingSquare2 = {
 };
 
 function addObjectTo_objectPositionsList2(){
-	objectPositionsList.push(bouncingSquare);
+	objectPositionsList.push(bouncingSquare2);
 };
 
 var dt = 0;
