@@ -11,11 +11,11 @@ const bouncingSquare2 = {
 	size: 50,
 	position: {
 		x: 200,
-		y: 100,
+		y: 50,
 	},
 	velocity: { // pixels per second
-		x: 300,
-		y: -200,
+		x: 350,
+		y: -250,
 	},
 	
 };
