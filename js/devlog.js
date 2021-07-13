@@ -1,6 +1,9 @@
 window.devlog = [{
+	date: new Date("2021-07-13"),
+	text: "Continued: Building basic backbone for physics engine a.k.a collision detection \n Created red ball and position declaration in Console Log",
+}{
 	date: new Date("2021-07-12"),
-	text: "Building basic backbone for physics engine a.k.a collision detection",
+	text: "Building basic backbone for physics engine a.k.a collision detection \n But I crashed everything..",
 },{
 	date: new Date("2021-07-11"),
 	text: "Moved bouncing ball to object_BouncingBall.js \n Cleaned up scripts",
