@@ -49,5 +49,5 @@ function updateAndDrawBouncingBall(dt) {
 	// draw
 	ctx.fillStyle = 'blue';
 	ctx.fillRect(s.position.x, s.position.y, s.size, s.size);
-	addObjectTo_objectPositionsList();
+	//addObjectTo_objectPositionsList();
 }
