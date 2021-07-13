@@ -5,7 +5,9 @@ function declareObjectPositions() {
   var arrayLength = objectPositionsList.length;
   for (var i = 0; i < arrayLength; i++) {
     
-    console.log(objectPositionsList[i].objectName + ", " +objectPositionsList[i].position.x.toFixed(2) + ", " + objectPositionsList[i].position.y.toFixed(2));
+    console.log(objectPositionsList[i].objectName + ", X: " 
+                +objectPositionsList[i].position.x.toFixed(2) + ", Y: " 
+                + objectPositionsList[i].position.y.toFixed(2));
     
     
     /*SUCCESS
