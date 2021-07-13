@@ -1,4 +1,3 @@
-
 const bouncingSquare = {
 	objectName: "blueball",
 	size: 50,
