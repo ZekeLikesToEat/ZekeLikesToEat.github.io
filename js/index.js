@@ -35,7 +35,7 @@ setInterval(() => {
 	
 	declareObjectPositions();
 
-}, 60 * 1000/(0.5))//changed to every 1/2 seconds
+}, 60 * 1000/120)//changed to every 1/2 seconds
 
 // todo: break up update vs draw
 function update(dt) {
