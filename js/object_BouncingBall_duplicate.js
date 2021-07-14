@@ -65,7 +65,7 @@ function updateAndDrawBouncingBall2(dt) {
 	    ((s2.position.x) < 0) ||
 	    ((s2.position.x) < 0))
 	{
-		resetBallPosition();
+		resetBallPosition2();
 	}
 
 	/// draw
