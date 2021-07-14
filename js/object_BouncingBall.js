@@ -14,7 +14,7 @@ const bouncingSquare = {
 function resetBallPosition() {
 	bouncingSquare.position.x: 100;
 	bouncingSquare.position.y: 100;
-	}
+};
 
 function addObjectTo_objectPositionsList(){
 	objectPositionsList.push(bouncingSquare);
@@ -55,9 +55,9 @@ function updateAndDrawBouncingBall(dt) {
 	    ((s.position.y) > canvas.height) ||
 	    ((s.position.x) < 0) ||
 	    ((s.position.x) < 0))
-		{
+	{
 		resetBallPosition();
-		}
+	}
 
 	// draw
 	ctx.fillStyle = 'blue';
