@@ -5,9 +5,9 @@ function declareObjectPositions() {
   var arrayLength = objectPositionsList.length;
   for (var i = 0; i < arrayLength; i++) {
     var ob = objectPositionsList[i];
-    console.log(ob.objectName + ", X: " 
+    /*console.log(ob.objectName + ", X: " 
                 +ob.position.x.toFixed(2) + ", Y: " 
-                +ob.position.y.toFixed(2));
+                +ob.position.y.toFixed(2));*/
     isThereACollision(ob);
   }
   objectPositionsList.length =0;
