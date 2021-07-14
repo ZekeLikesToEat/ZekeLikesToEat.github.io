@@ -54,7 +54,7 @@ function updateAndDrawBouncingBall(dt) {
 	    ((s.position.x) > canvas.width) ||
 	    ((s.position.y) > canvas.height) ||
 	    ((s.position.x) < 0) ||
-	    ((s.position.x) < 0) ||
+	    ((s.position.x) < 0))
 		{
 		resetBallPosition();
 		}
