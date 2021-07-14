@@ -14,9 +14,9 @@ function declareObjectPositions() {
 }
  
 function isThereACollision(ob) {
-   var arrayLength = objectPositionsList.length;
-  var other = objectPositionsList[i];
+   var arrayLength = objectPositionsList.length; 
   for (var i = 0; i < arrayLength; i++) {
+    var other = objectPositionsList[i];
     if(other = ob) {console.log("Testing Self with Self : " +
                                ob.objectName + " = " + other.objectName); return;}
     if(Math.abs(ob.position.x - other.x)< other.size) {
