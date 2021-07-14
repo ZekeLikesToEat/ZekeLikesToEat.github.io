@@ -1,4 +1,7 @@
 window.devlog = [{
+	date: new Date("2021-07-14"),
+	text: "Continued: Building basic backbone for physics engine a.k.a collision detection \n Changed squares to circles \n Created reset function for balls going off page \n Created collision detector \n Learned to use Continue instead of Return on Loops - thanks again Bit!",
+},{
 	date: new Date("2021-07-13"),
 	text: "Continued: Building basic backbone for physics engine a.k.a collision detection \n Created red ball and position declaration in Console Log",
 },{
