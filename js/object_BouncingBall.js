@@ -12,8 +12,8 @@ const bouncingSquare = {
 	
 };
 function resetBallPosition() {
-	bouncingSquare.position.x: 100;
-	bouncingSquare.position.y: 100;
+	bouncingSquare.position.x = 100;
+	bouncingSquare.position.y = 100;
 };
 
 function addObjectTo_objectPositionsList(){
