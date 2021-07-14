@@ -8,7 +8,7 @@ I know this makes your eye twitch.
 */
 const bouncingSquare2 = {
 	objectName: "redball",
-	size: 50,
+	size: 25,
 	position: {
 		x: 200,
 		y: 50,
@@ -18,6 +18,11 @@ const bouncingSquare2 = {
 		y: -250,
 	},
 	
+};
+
+function resetBallPosition2() {
+	bouncingSquare2.position.x = 200;
+	bouncingSquare2.position.y = 50;
 };
 
 function addObjectTo_objectPositionsList2(){
@@ -52,9 +57,30 @@ function updateAndDrawBouncingBall2(dt) {
 	if (s2.position.y < 0) {
 		s2.velocity.y *= -1
 	}
+	
+	//added reset position
+	if (
+	    ((s2.position.x) > canvas.width) ||
+	    ((s2.position.y) > canvas.height) ||
+	    ((s2.position.x) < 0) ||
+	    ((s2.position.x) < 0))
+	{
+		resetBallPosition();
+	}
 
-	// draw
+	/// draw
 	ctx.fillStyle = 'red';
-	ctx.fillRect(s2.position.x, s2.position.y, s2.size, s2.size);
-	//addObjectTo_objectPositionsList();
+	
+	//Attempting to make circle
+	ctx.beginPath();
+	ctx.arc(s2.position.x, s2.position.y, s2.size, 0, 2*Math.PI,false);
+	ctx.fill();
+	ctx.lineWidth = 5;
+	ctx.strokeStyle = '#003300';
+	ctx.stroke();
+	
+	
+	/*Rectangle [SQUARE]
+	ctx.fillRect(s.position.x, s.position.y, s.size, s.size);
+	*/
 }
