@@ -35,6 +35,7 @@ function isThereACollision(ob) {
     {
       console.log("No collision");
     }
+    console.log("TEST 1");
   }
 }
 
