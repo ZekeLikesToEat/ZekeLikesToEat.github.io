@@ -17,7 +17,7 @@ function isThereACollision(ob) {
    var arrayLength = objectPositionsList.length;
   var other = objectPositionsList[i];
   for (var i = 0; i < arrayLength; i++) {
-    if(b = ob) return;
+    if(other = ob) {console.log("Testing Self with Self"); return;}
     if(Math.abs(ob.position.x - other.x)< other.size) {
        console.log(ob.objectName + " collided with " +  
        other.objectName + " on the X axis at : " +
