@@ -20,7 +20,7 @@ function isThereACollision(ob) {
     if(other.objectName = ob.objectName) {
       /*console.log("Testing Self with Self : " +
                                ob.objectName + " = " + other.objectName); */
-      return;}
+      continue;}//NOT RETURN; per BitBender, return will END a loop instead of just running the next iteration..
     if(Math.abs(ob.position.x - other.position.x)< other.size) {
        console.log(ob.objectName + " collided with " +  
        other.objectName + " on the X axis at : " +
