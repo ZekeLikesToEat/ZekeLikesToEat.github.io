@@ -13,24 +13,25 @@ function declareObjectPositions() {
   objectPositionsList.length =0;
 }
  
-function isThereACollision(var ob) {
+function isThereACollision(ob) {
    var arrayLength = objectPositionsList.length;
+  var other = objectPositionsList[i];
   for (var i = 0; i < arrayLength; i++) {
-    if(objectPositionsList[i] = ob) return;
-    if(Math.abs(ob.position.x - objectPositionsList[i].x)< objectPositionsList[i].size) {
+    if(b = ob) return;
+    if(Math.abs(ob.position.x - other.x)< other.size) {
        console.log(ob.objectName + " collided with " +  
-       objectPositionsList[i].objectName + " on the X axis at : " +
+       other.objectName + " on the X axis at : " +
        ob.position.x.toFixed(2) + " = " +
-       objectPositionsList[i].position.x.toFixed(2));   
+       other.position.x.toFixed(2));   
     }
-    if(Math.abs(ob.position.y - objectPositionsList[i].y)< objectPositionsList[i].size) {
+    if(Math.abs(ob.position.y - other.y)< other.size) {
        console.log(ob.objectName + " collided with " +  
-       objectPositionsList[i].objectName + " on the y axis at : " +
+       other.objectName + " on the y axis at : " +
        ob.position.x.toFixed(2) + " = " +
-       objectPositionsList[i].position.x.toFixed(2));   
+       other.position.x.toFixed(2));   
     }
-    if((Math.abs(ob.position.x - objectPositionsList[i].x)> objectPositionsList[i].size) &&
-      (Math.abs(ob.position.y - objectPositionsList[i].y)< objectPositionsList[i].size))
+    if((Math.abs(ob.position.x - other.x)> other.size) &&
+      (Math.abs(ob.position.y - other.y)< other.size))
     {
       console.log("No collision");
     }
