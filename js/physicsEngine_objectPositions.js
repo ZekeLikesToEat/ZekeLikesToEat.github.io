@@ -10,6 +10,7 @@ function declareObjectPositions() {
                 +ob.position.y.toFixed(2));*/
     isThereACollision(ob);
   }
+  console.log("TEST 2");
   objectPositionsList.length =0;
 }
  
