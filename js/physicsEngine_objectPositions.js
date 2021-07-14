@@ -31,7 +31,7 @@ function isThereACollision(ob) {
        other.position.x.toFixed(2));   
     }
     if((Math.abs(ob.position.x - other.x)> other.size) &&
-      (Math.abs(ob.position.y - other.y)< other.size))
+      (Math.abs(ob.position.y - other.y)> other.size))
     {
       console.log("No collision");
     }
