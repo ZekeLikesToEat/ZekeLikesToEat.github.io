@@ -1,6 +1,6 @@
 const bouncingSquare = {
 	objectName: "blueball",
-	size: 50,
+	size: 25,
 	position: {
 		x: 100,
 		y: 100,
@@ -64,7 +64,7 @@ function updateAndDrawBouncingBall(dt) {
 	
 	//Attempting to make circle
 	ctx.beginPath();
-	ctx.arc(s.position.x, s.position.y, s.size, 0, 1*Math.PI,false);
+	ctx.arc(s.position.x, s.position.y, s.size, 0, 2*Math.PI,false);
 	ctx.fill();
 	ctx.lineWidth = 5;
 	ctx.strokeStyle = '#003300';
