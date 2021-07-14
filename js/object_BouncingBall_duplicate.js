@@ -50,11 +50,11 @@ function updateAndDrawBouncingBall2(dt) {
 		s2.velocity.y *= -1
 	}
 
-	if (s2.position.x < 0) {
+	if ((s2.position.x - s2.size) < 0) {
 		s2.velocity.x *= -1
 	}
 
-	if (s2.position.y < 0) {
+	if ((s2.position.y - s2.size) < 0) {
 		s2.velocity.y *= -1
 	}
 	
