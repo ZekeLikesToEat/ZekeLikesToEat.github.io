@@ -10,7 +10,6 @@ function declareObjectPositions() {
                 +ob.position.y.toFixed(2));*/
     isThereACollision(ob);
   }
-  console.log("TEST 2");
   objectPositionsList.length =0;
 }
  
@@ -18,7 +17,8 @@ function isThereACollision(ob) {
    var arrayLength = objectPositionsList.length;
   var other = objectPositionsList[i];
   for (var i = 0; i < arrayLength; i++) {
-    if(other = ob) {console.log("Testing Self with Self"); return;}
+    if(other = ob) {console.log("Testing Self with Self : " +
+                               ob.objectName + " = " + other.objectName); return;}
     if(Math.abs(ob.position.x - other.x)< other.size) {
        console.log(ob.objectName + " collided with " +  
        other.objectName + " on the X axis at : " +
