@@ -47,6 +47,18 @@ function updateAndDrawBouncingBall(dt) {
 
 	// draw
 	ctx.fillStyle = 'blue';
+	
+	//Attempting to make circle
+	ctx.beginPath();
+	ctx.arc(s.position.x, s.position.y, s.size, 0, 1*Math.PI,false);
+	ctx.fill();
+	ctx.lineWidth = 5;
+	ctx.strokeStyle = '#003300';
+	ctx.stroke();
+	
+	
+	/*Rectangle [SQUARE]
 	ctx.fillRect(s.position.x, s.position.y, s.size, s.size);
-	//addObjectTo_objectPositionsList();
+	*/
+
 }
