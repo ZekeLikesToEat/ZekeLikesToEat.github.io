@@ -17,22 +17,24 @@ function isThereACollision(ob) {
    var arrayLength = objectPositionsList.length; 
   for (var i = 0; i < arrayLength; i++) {
     var other = objectPositionsList[i];
-    if(other = ob) {console.log("Testing Self with Self : " +
-                               ob.objectName + " = " + other.objectName); return;}
-    if(Math.abs(ob.position.x - other.x)< other.size) {
+    if(other.objectName = ob.objectName) {
+      /*console.log("Testing Self with Self : " +
+                               ob.objectName + " = " + other.objectName); */
+      return;}
+    if(Math.abs(ob.position.x - other.position.x)< other.size) {
        console.log(ob.objectName + " collided with " +  
        other.objectName + " on the X axis at : " +
        ob.position.x.toFixed(2) + " = " +
        other.position.x.toFixed(2));   
     }
-    if(Math.abs(ob.position.y - other.y)< other.size) {
+    if(Math.abs(ob.position.y - other.position.y)< other.size) {
        console.log(ob.objectName + " collided with " +  
        other.objectName + " on the y axis at : " +
        ob.position.x.toFixed(2) + " = " +
        other.position.x.toFixed(2));   
     }
-    if((Math.abs(ob.position.x - other.x)> other.size) &&
-      (Math.abs(ob.position.y - other.y)> other.size))
+    if((Math.abs(ob.position.x - other.position.x)> other.size) &&
+      (Math.abs(ob.position.y - other.position.y)> other.size))
     {
       console.log("No collision");
     }
