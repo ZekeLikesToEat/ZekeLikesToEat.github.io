@@ -11,6 +11,10 @@ const bouncingSquare = {
 	},
 	
 };
+function resetBallPosition() {
+	bouncingSquare.position.x: 100;
+	bouncingSquare.position.y: 100;
+	}
 
 function addObjectTo_objectPositionsList(){
 	objectPositionsList.push(bouncingSquare);
@@ -37,13 +41,23 @@ function updateAndDrawBouncingBall(dt) {
 		s.velocity.y *= -1
 	}
 
-	if (s.position.x < 0) {
+	if ((s.position.x - s.size) < 0) {
 		s.velocity.x *= -1
 	}
 
-	if (s.position.y < 0) {
+	if ((s.position.y - s.size) < 0) {
 		s.velocity.y *= -1
 	}
+	
+	//added reset position
+	if (
+	    ((s.position.x) > canvas.width) ||
+	    ((s.position.y) > canvas.height) ||
+	    ((s.position.x) < 0) ||
+	    ((s.position.x) < 0) ||
+		{
+		resetBallPosition();
+		}
 
 	// draw
 	ctx.fillStyle = 'blue';
