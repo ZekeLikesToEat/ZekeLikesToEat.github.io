@@ -36,9 +36,8 @@ function isThereACollision(ob) {
     if((Math.abs(ob.position.x - other.position.x)> other.size) &&
       (Math.abs(ob.position.y - other.position.y)> other.size))
     {
-      console.log("No collision");
+      //do nothing //console.log("No collision");
     }
-    console.log("TEST 1");
   }
 }
 
