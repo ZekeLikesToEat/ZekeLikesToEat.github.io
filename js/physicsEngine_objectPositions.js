@@ -17,7 +17,7 @@ function isThereACollision(ob) {
    var arrayLength = objectPositionsList.length; 
   for (var i = 0; i < arrayLength; i++) {
     var other = objectPositionsList[i];
-    if(other.objectName = ob.objectName) {
+    if(other.objectName === ob.objectName) {
       /*console.log("Testing Self with Self : " +
                                ob.objectName + " = " + other.objectName); */
       continue;}//NOT RETURN; per BitBender, return will END a loop instead of just running the next iteration..
