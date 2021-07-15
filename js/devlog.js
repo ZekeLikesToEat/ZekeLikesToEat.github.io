@@ -1,4 +1,9 @@
 window.devlog = [{
+	date: new Date("2021-07-15"),
+	text: "Continued: Building basic backbone for physics engine a.k.a collision detection \n" +
+	"= is not the same as ===, thanks again Bit! \n" +
+	"Great discussions on Entity & Components (Be-ers) vs System (Do-ers)",
+},{
 	date: new Date("2021-07-14"),
 	text: "Continued: Building basic backbone for physics engine a.k.a collision detection \n" +
 	"Changed squares to circles \n Created reset function for balls going off page \n" +
