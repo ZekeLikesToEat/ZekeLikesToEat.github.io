@@ -1,4 +1,12 @@
 window.devlog = [{
+	date: new Date("2021-07-19"),
+	text: "Attempted to destroy existing bouncing ball scripts and create a system_Factory_BouncingBallClass \n" +
+	"Became stuck. Can't do the mental gymnastics on how this script factories balls that are then updated by system.." +
+	"Sent message to Bit : Next time on DragonBallBit! --> \n" +
+	"Create tons of balls by calling system_Factory_BouncingBallClass --> \n" +
+	"How to have the newly created object(s) contain a script governing existence... \n" +
+	"Tune in Thursday!",
+},{
 	date: new Date("2021-07-15"),
 	text: "Continued: Building basic backbone for physics engine a.k.a collision detection \n" +
 	"= is not the same as ===, thanks again Bit! \n" +
