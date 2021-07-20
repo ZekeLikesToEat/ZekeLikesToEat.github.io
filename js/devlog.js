@@ -1,4 +1,8 @@
 window.devlog = [{
+	date: new Date("2021-07-20"),
+	text: "Added Google Adsense n/" +
+	"Used abandoned cookies account",
+},{
 	date: new Date("2021-07-19"),
 	text: "Attempted to destroy existing bouncing ball scripts and create a system_Factory_BouncingBallClass \n" +
 	"Became stuck. Can't do the mental gymnastics on how this script factories balls that are then updated by system.." +
