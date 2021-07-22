@@ -72,11 +72,7 @@ const sys_F_BouncingBall - (function () {
 	ctx.fill();
 	ctx.lineWidth = 5;
 	ctx.strokeStyle = '#003300';
-	ctx.stroke();
-  
-  
-  
-  
+	ctx.stroke(); 
 
     return {
           //place items to be accessed by other scripts here:
