@@ -1,4 +1,8 @@
 window.devlog = [{
+	date: new Date("2022-03-03"),
+	text: "Relearning everything... n/" +
+	"Hopefully back into coding soon",
+},{
 	date: new Date("2021-07-20"),
 	text: "Added Google Adsense n/" +
 	"Used abandoned cookies account",
