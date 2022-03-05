@@ -25,7 +25,7 @@ setInterval(() => {
 }, 60 * 1000/120)//changed to every 1/2 seconds
 function update(dt) {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
-	sys_P_FrameRate(drawFrameRateIndicator(dt));
+	FrameRateSystem.drawFrameRateIndicator(dt,ctx);
 
 	document
 		.getElementById("countup-browser-refresh")
