@@ -1,4 +1,8 @@
 window.devlog = [{
+	date: new Date("2022-03-04"),
+	text: "I'm purposely breaking all the things so... n/" +
+	"I can rebuild the things",
+},{
 	date: new Date("2022-03-03"),
 	text: "Relearning everything... n/" +
 	"Hopefully back into coding soon",
