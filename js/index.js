@@ -14,7 +14,7 @@ let lastTime;
 window.requestAnimationFrame(function loop(t) {
 	if (lastTime) {
 		const dt = (t - lastTime) / 1000;
-		update(dt);
+		UpdateSystem.update(dt,ctx)//update(dt);
 	}
 	lastTime = t;
 	window.requestAnimationFrame(loop);
@@ -23,14 +23,14 @@ setInterval(() => {
 	// do stuff 
 	
 }, 60 * 1000/120)//changed to every 1/2 seconds
-function update(dt) {
+/*function update(dt) {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	FrameRateSystem.drawFrameRateIndicator(dt,ctx);
 
 	document
 		.getElementById("countup-browser-refresh")
 		.innerText = Math.floor(lastTime / 1000);
-}
+}*/
 /* Move this to separate script
 function drawFrameRateIndicator(dt) {
 	const formattedFrameRate = (1 / dt).toFixed(4);
