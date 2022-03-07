@@ -1,8 +1,15 @@
 //limiting the access to only this script unless explicitly called upon
-const FrameRateSystem = (function () {
+const UpdateSystem = (function () {
 	const module = {};
  //place script here
-  
+  module.update = function(dt,ctx) {
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		FrameRateSystem.drawFrameRateIndicator(dt,ctx);
+	  	
+	  	document
+		.getElementById("countup-browser-refresh")
+		.innerText = Math.floor(lastTime / 1000);
+	}
   /*function update(dt) {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	FrameRateSystem.drawFrameRateIndicator(dt,ctx);
