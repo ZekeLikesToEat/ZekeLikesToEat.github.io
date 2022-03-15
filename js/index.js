@@ -23,6 +23,9 @@ setInterval(() => {
 	// do stuff 
 	
 }, 60 * 1000/120)//changed to every 1/2 seconds
+function addBall() {
+	FactoryNewBall.addBall();
+}
 /*function update(dt) {
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	FrameRateSystem.drawFrameRateIndicator(dt,ctx);
