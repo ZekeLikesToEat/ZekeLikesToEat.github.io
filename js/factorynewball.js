@@ -1,7 +1,7 @@
 //Creating factory to create object "Bouncing Balls"
 
 //limiting the access to only this script unless explicitly called upon
-const sys_F_BouncingBall - (function () {
+const FactoryNewBall - (function () {
  //place entire script here:
   class BouncingBallClass {
     constructor (name, size, position_x, position_y, velocity_x, velocity_y) {
