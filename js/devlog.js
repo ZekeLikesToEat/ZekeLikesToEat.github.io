@@ -1,4 +1,8 @@
 window.devlog = [{
+	date: new Date("2022-03-15"),
+	text: "Still struggling... n/" +
+	"It takes me a solid 45 minutes to understand all the code; and then I don't have enough time remaining to make significant changes.",
+},{
 	date: new Date("2022-03-08"),
 	text: "Trying to create building blocks... n/" +
 	"1. Physics, 2. Draw, 3. Generate Balls, 4. Size and density and color variances. 5. Running stats",
