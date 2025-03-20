@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000;
+    color: #0ff;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #0ff, #00f);
+    text-shadow: 0 0 10px #0ff;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-shadow: 0 0 5px #0ff;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.game {
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #0ff;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px #0ff;
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.play-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #0ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about {
+    padding: 50px;
+    background: rgba(0, 255, 255, 0.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: #111;
+    color: #0ff;
+}
+
+footer .social-links a {
+    color: #0ff;
+    text-decoration: none;
+    margin: 0 10px;
+}
